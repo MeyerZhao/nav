@@ -1,5 +1,5 @@
 .tm-nav, .tm-nav-sub { margin: 0; padding: 0; }
-.tm-nav { background: #2074af; height: 50px; position: relative; }
+.tm-nav { background: #2074af; height: 50px;line-height: 50px; position: relative; }
 .tm-nav li { list-style-type: none; float: left; position: relative; }
 .tm-nav li.active { background: #338ece; }
 .tm-nav-sub li.active { background: #50a8e6; }
