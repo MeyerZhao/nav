@@ -1,0 +1,10 @@
+.tm-nav, .tm-nav-sub { margin: 0; padding: 0; }
+.tm-nav { background: #2074af; height: 50px; position: relative; }
+.tm-nav li { list-style-type: none; float: left; position: relative; }
+.tm-nav li.active { background: #338ece; }
+.tm-nav-sub li.active { background: #50a8e6; }
+.tm-nav li a { color: #fff; display: block; height: 50px; line-height: 50px; padding: 0px 15px; font-size: 14px; }
+.tm-nav-sub { position: absolute; z-index: 1; top: 50px; background: #338ece; display: none; padding: 6px; }
+.tm-nav-sub li a { width: 87px; height: 36px; line-height: 36px; }
+.tm-nav-sub-col2 { width: 234px; }
+.tm-nav-sub-all { position: absolute; left: 0; right: 0; margin: 0; }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nav</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<script src="js/jquery-1.9.0.min.js"></script>
+	<script>
+		jQuery(document).ready(function($) {
+			$(".tm-nav>li").hover(function() {
+				/* Stuff to do when the mouse enters the element */
+				$(this).addClass('active').children('.tm-nav-sub').show();
+			}, function() {
+				/* Stuff to do when the mouse leaves the element */
+				$(this).removeClass('active').children('.tm-nav-sub').hide();
+			});
+
+			$(".tm-nav-sub>li").hover(function() {
+				/* Stuff to do when the mouse enters the element */
+				$(this).addClass('active');
+			}, function() {
+				/* Stuff to do when the mouse leaves the element */
+				$(this).removeClass('active');
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<ul class="tm-nav">
+		<li>
+			<a href="">Home</a>
+			<ul class="tm-nav-sub">
+				<li><a href="">Home</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">导航2</a>
+			<ul class="tm-nav-sub">
+				<li><a href="">Home</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">导航2</a>
+			<ul class="tm-nav-sub tm-nav-sub-col2">
+				<li><a href="">Home</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+				<li><a href="">导航2</a></li>
+			</ul>
+		</li>
+		<li style="position: static;">
+			<a href="">导航2</a>
+				<ul class="tm-nav-sub tm-nav-sub-all">
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+					<li><a href="">导航2</a></li>
+				</ul>
+		</li>
+		
+	</ul>
+	
+</body>
+</html>
